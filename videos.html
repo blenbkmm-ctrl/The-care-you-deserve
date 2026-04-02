@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Videos | The Care You Deserve</title>
+    <link rel="stylesheet" href="wireframe.css">
+</head>
+<body class="wireframe-page">
+
+    <!-- Top Header Bar -->
+    <header class="wf-header">
+        <button class="wf-mobile-toggle" id="wf-toggle">☰</button>
+        <a href="index.html" class="wf-header-logo" style="padding: 0; background: none; display: flex; align-items: center;">
+            <img src="Design Logo.png" alt="The Care You Deserve Logo" style="max-height: 40px; width: auto; border-radius: 4px;">
+        </a>
+        <input type="text" class="wf-header-search" placeholder="Search">
+        <div class="wf-header-controls">
+            <button class="wf-theme-toggle" id="theme-toggle">🌙</button>
+            <div class="wf-header-profile">U</div>
+        </div>
+    </header>
+
+    <div class="wf-body">
+        <!-- Left Sidebar -->
+        <nav class="wf-sidebar" id="wf-sidebar">
+            <a href="index.html">
+                <span class="nav-icon">🏠</span> Home
+            </a>
+            <a href="length-retention.html">
+                <span class="nav-icon">📏</span> Length Retention
+            </a>
+            <a href="moisture.html">
+                <span class="nav-icon">💧</span> Moisture
+            </a>
+            <a href="wash-days.html">
+                <span class="nav-icon">🧴</span> Wash Days
+            </a>
+            <a href="harsh-truths.html">
+                <span class="nav-icon">⚠️</span> Harsh Truths
+            </a>
+            <a href="videos.html" class="active">
+                <span class="nav-icon">🎬</span> Videos
+            </a>
+        </nav>
+
+        <!-- Main Content -->
+        <main class="wf-main">
+            <h1 class="wf-page-title">Videos</h1>
+
+            <!-- Video 1 -->
+            <div class="wf-wide-block">
+                <div class="wf-section-label" style="font-size: 24px;">Avocado Hair Mask</div>
+                <div class="wf-wide-image" style="min-height: auto; padding: 0; overflow: hidden; background: #000;">
+                    <video controls style="width: 100%; display: block; max-height: 600px;">
+                        <source src="avocado video.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+            </div>
+
+            <!-- Video 2 -->
+            <div class="wf-wide-block">
+                <div class="wf-section-label" style="font-size: 24px;">Protective Braiding Tutorial</div>
+                <div class="wf-wide-image" style="min-height: auto; padding: 0; overflow: hidden; background: #000;">
+                    <video controls style="width: 100%; display: block; max-height: 600px;">
+                        <source src="braiding video.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+            </div>
+
+
+
+        </main>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
